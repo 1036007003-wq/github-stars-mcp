@@ -1,7 +1,7 @@
 {
-  "name": "github-stars-mcp",
+  "name": "@1036007003-wq/github-stars-mcp",
   "version": "1.0.0",
-  "description": "MCP Server for GitHub repo growth — analyze stars, compare repos, optimize README, find similar projects. Grow your open-source project.",
+  "description": "MCP Server for GitHub repo growth \u2014 analyze stars, compare repos, optimize README, find similar projects. Grow your open-source project.",
   "type": "module",
   "main": "index.js",
   "bin": {
@@ -29,5 +29,6 @@
     "@modelcontextprotocol/sdk": "^1.0.4",
     "dotenv": "^16.4.5",
     "node-fetch": "^3.3.2"
-  }
+  },
+  "mcpName": "io.github.1036007003-wq/github-stars"
 }

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.1036007003-wq/github-stars",
+  "description": "MCP Server for GitHub Stars tracking \u2014 monitor repo growth, analyze contributor activity, track trending repositories, and measure open source impact.",
+  "repository": {
+    "url": "https://github.com/1036007003-wq/github-stars-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@1036007003-wq/github-stars-mcp",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "GITHUB_TOKEN",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string",
+          "description": "GitHub Personal Access Token"
+        },
+        {
+          "name": "GITHUB_USERNAME",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string",
+          "description": "GitHub username to track"
+        }
+      ]
+    }
+  ]
+}
