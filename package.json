@@ -1,0 +1,33 @@
+{
+  "name": "github-stars-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for GitHub repo growth — analyze stars, compare repos, optimize README, find similar projects. Grow your open-source project.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "github-stars-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "github",
+    "stars",
+    "open-source",
+    "marketing",
+    "growth"
+  ],
+  "author": "wangchenji",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1036007003-wq/github-stars-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  }
+}
